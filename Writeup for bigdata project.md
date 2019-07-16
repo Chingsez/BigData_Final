@@ -110,7 +110,7 @@ For ***comments*** basic analyzations we want to focus on:
 
 In this part we create 10 features for future modeling
 
-1. ***year***, ***month***, ***dayofmonth*** from ***time_ts*** 
+1. ***year***, ***month***, ***dayofweek*** from ***time_ts*** 
 
 2. ***active_user*** by selecting top 3000 active users from dataset and encode original column into binary variable
 
