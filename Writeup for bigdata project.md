@@ -6,7 +6,7 @@
 
 ## Sumamry
 
-For this final project we focused on analyzing the dataset comes from a website calls `Hacker News`. The ***stories*** dataset is about , and the ***comments*** dataset is about 3.5GB. We used spark sql to clean and analyze these two datasets. Visualizing and select realative variables to  complete feature engineering, then use pyspark machine learning package to build regression, random forest and k-means cluster model to predict stories' score.
+For this final project we focused on analyzing the dataset comes from a website calls `Hacker News`. The dataset is about 4.0GB. We used spark sql to clean and analyze these two datasets. Visualizing and select realative variables to complete feature engineering, then use pyspark machine learning package to build regression, random forest and k-means cluster model to predict stories' score.
 
 
 
@@ -14,7 +14,7 @@ For this final project we focused on analyzing the dataset comes from a website 
 
 Data source: <a href="https://www.kaggle.com/hacker-news/hacker-news" target="_blank">Hacker News</a>
 
-The dataset contains data from 2006 to now, including all the articles and comments information from `Hacker News`. `Hacker News` is a social news website focusing on computer science and entrepreneurship. It is run by Paul Graham's investment fund and startup incubator, Y Combinator. ***stories*** and ***comments*** are 2 separate datasets each contains certain information about Hacker News website's articles and comments. Inspired by the gaggle website, we want to analyze whether Hacker News is  tend to be dominated by a very small fraction of users, is it biased towards Y Combinator and also predict stories' score using certain features.
+The dataset contains data from 2006 to 2015, including all the articles and comments information from `Hacker News`. `Hacker News` is a social news website focusing on computer science and entrepreneurship. It is run by Paul Graham's investment fund and startup incubator, Y Combinator. ***stories*** and ***comments*** are 2 separate datasets each contains certain information about Hacker News website's articles and comments. Inspired by the kaggle website, we want to analyze whether Hacker News is tend to be dominated by a very small fraction of users, the overall user behavior, eg: the most active hours in submitting the story and whether there is a bias towards Y Combinatoralso, ect. We also predict stories' score by using certain features.
 
 
 
@@ -52,7 +52,7 @@ For ***stories*** basic analyzations we want to focus on:
 
   The result shows that from 2006-2012, total stroy number for each year grows rapidly, but after 2012 it starts to decrease. One reason can be that Hacker News is losing its users and become less active.
 
-  图
+  
 
   From the time distribution we can see that most articles were posted in the afternoon or in the evening, a few parts of them were posted in the morning, which means that people usually use this forum after work/study.
 
