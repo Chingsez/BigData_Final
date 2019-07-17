@@ -122,6 +122,7 @@ In this part we create 10 features for future modeling
 
 6. ***title_hot_words*** by split title and remove stop words in title, then choose top 300 most frequently appeared words as hot words, count how many top words appears in each story's title.
 
+7.***title_vec*** by transforming title to word vectors
    We also use ***author*** and ***descendants*** as input features in following model processes.
 
 ### Modeling
